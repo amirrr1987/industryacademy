@@ -8,8 +8,9 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: industry_db
       WORDPRESS_DB_USER: industry_admin
-      WORDPRESS_DB_PASSWORD: industry_password
+      WORDPRESS_DB_PASSWORD: industry_password123
     volumes:
+      - ./backups:/var/www/backups
       - ./html:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
     networks:
@@ -24,9 +25,22 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: industry_db
       MYSQL_USER: industry_admin
-      MYSQL_PASSWORD: industry_password
+      MYSQL_PASSWORD: industry_password123
     volumes:
       - db_data:/var/lib/mysql
+    networks:
+      - wordpress_network
+
+  phpmyadmin:
+    image: phpmyadmin:5.2.1
+    container_name: industry_phpmyadmin
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8081:80"
     networks:
       - wordpress_network
 

@@ -1,0 +1,1355 @@
+# Translation of Plugins - WP Events Manager - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - WP Events Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-29 05:16:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - WP Events Manager - Stable (latest release)\n"
+
+#: inc/class-wpems-ajax.php:143
+msgid "There is not any slots now. Please try with next future events!"
+msgstr "اکنون هیچ شکافی وجود ندارد. لطفاً با رویدادهای آینده بعدی امتحان کنید !"
+
+#: inc/admin/metaboxes/class-wpems-admin-metabox-event.php:42
+msgid "Please make sure event time is validate! The end time must be in future of the start time!"
+msgstr "لطفاً مطمئن شوید که زمان رویداد معتبر است! زمان پایان باید در آینده زمان شروع باشد!"
+
+#: inc/admin/views/settings/textarea.php:41
+msgid "These variables are allowed to use in email content."
+msgstr "این متغیرها مجاز به استفاده در محتوای ایمیل هستند."
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:85
+msgid "Message Body"
+msgstr "بدنه ی پیام"
+
+#: templates/shortcodes/user-account.php:90
+msgid "Go to Events"
+msgstr "به رویدادها بروید"
+
+#: templates/shortcodes/user-account.php:88
+msgid "No event booking has been made yet."
+msgstr "هنوز هیچ رویدادی انجام نشده است"
+
+#: inc/class-wpems-post-types.php:191
+msgid "Search Tags"
+msgstr "جستجوی برچسب ها"
+
+#: inc/class-wpems-post-types.php:196
+msgid "Update Tag"
+msgstr "برچسب را به روز کنید"
+
+#: inc/class-wpems-post-types.php:195
+msgid "Edit Tag"
+msgstr "برچسب را ویرایش کنید"
+
+#: inc/class-wpems-post-types.php:189
+msgctxt "taxonomy general name"
+msgid "Event Tags"
+msgstr "برچسب رویدادها"
+
+#: inc/class-wpems-post-types.php:190
+msgctxt "taxonomy singular name"
+msgid "Event Tag"
+msgstr "برچسب رویداد"
+
+#: inc/class-wpems-post-types.php:197
+msgid "Add New Tag"
+msgstr "برچسب جدید را اضافه کنید"
+
+#: inc/class-wpems-post-types.php:194
+msgid "Parent Tag:"
+msgstr "برچسب والد:"
+
+#: inc/class-wpems-post-types.php:193
+msgid "Parent Tag"
+msgstr "برچسب والد"
+
+#: inc/wpems-core-functions.php:1299
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: inc/class-wpems-post-types.php:199
+msgid "Tag"
+msgstr "برچسب "
+
+#: inc/class-wpems-post-types.php:192
+msgid "All Tags"
+msgstr "همه برچسب ها"
+
+#: inc/class-wpems-post-types.php:198
+msgid "New Tag Name"
+msgstr "نام برچسب جدید"
+
+#: templates/pagination.php:35
+msgid ">"
+msgstr ">"
+
+#: templates/pagination.php:34
+msgid "<"
+msgstr "<"
+
+#: inc/class-wpems-gdpr.php:35 inc/class-wpems-gdpr.php:49
+msgid "WPEMS Booking"
+msgstr "رزرو WPEMS"
+
+#: inc/class-wpems-gdpr.php:85
+msgid "Created Date"
+msgstr "تاریخ ایجاد شدن"
+
+#: inc/class-wpems-gdpr.php:89
+msgid "Customer Details"
+msgstr "اطلاعات مشتری"
+
+#: inc/class-wpems-gdpr.php:93
+msgid "Items"
+msgstr "موارد"
+
+#: templates/loop/register.php:64
+msgid "You have registered this event before."
+msgstr "شما این رویداد را قبلاً ثبت کرده اید"
+
+#: templates/emails/register-admin-event.php:39
+msgid "User have been registered successful <a href=\"%s\">your event</a>."
+msgstr "کاربر <a href=\"%s\"> رویداد شما </a> با موفقیت ثبت شده است."
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:55
+msgid "Send email to admin and user when user registers event"
+msgstr "هنگام ثبت نام کاربر ، رویداد را برای مدیر و کاربر ایمیل ارسال کنید"
+
+#: templates/loop/register.php:70
+msgid "You must <a href=\"%s\">login</a> before register event."
+msgstr "قبل از ثبت نام باید <a href=\"%s\"> وارد شوید </a>."
+
+#: inc/widgets/class-wpems-widget-countdown.php:133
+msgid "Happening"
+msgstr "اتفاق می افتد"
+
+#: inc/widgets/class-wpems-widget-countdown.php:132
+msgid "Upcoming"
+msgstr "آینده"
+
+#: inc/widgets/class-wpems-widget-countdown.php:134
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: inc/widgets/class-wpems-widget-countdown.php:84
+msgid "Title:"
+msgstr "عنوان:"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:31
+msgid "Pages"
+msgstr "صفحه‌ها"
+
+#: inc/widgets/class-wpems-widget-countdown.php:96
+msgid "Pagiantion:"
+msgstr "صفحه:"
+
+#: inc/admin/views/settings/select-page.php:30
+msgid "Select Page"
+msgstr "صفحه را انتخاب کنید"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:57
+msgid "Register Page"
+msgstr "صفحه ثبت نام"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:63
+msgid "Login Page"
+msgstr "صفحه ورود"
+
+#: inc/admin/class-wpems-admin-users.php:268
+msgid "Event Users"
+msgstr "شرکت کننده ها"
+
+#: templates/loop/register.php:49
+msgid "Booked Slot:"
+msgstr "شکاف رزرو شده:"
+
+#: templates/loop/register.php:45
+msgid "Total Slot:"
+msgstr "شیار کل:"
+
+#: templates/shortcodes/event-countdown.php:33
+msgid "Invalid Event ID"
+msgstr "شناسه‌ی رویداد غیرمعتبر"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:217
+msgid "Booking ID is not exists!"
+msgstr "شناسه رزرو وجود ندارد!"
+
+#: inc/class-wpems-booking.php:101
+msgid "Booking ID #%s is not exists."
+msgstr "شناسه رزرو #%s وجود ندارد."
+
+#: templates/shortcodes/user-account.php:31
+msgid "Booking ID"
+msgstr "شناسه رزور"
+
+#: inc/class-wpems-gdpr.php:81 inc/class-wpems-post-types.php:402
+#: templates/emails/register-admin-event.php:47
+#: templates/emails/register-event-body.php:23
+msgid "ID"
+msgstr "شناسه"
+
+#: inc/widgets/class-wpems-widget-countdown.php:26
+msgid "WP Event Countdown"
+msgstr "شمارش معکوس افزونه"
+
+#: inc/class-wpems-ajax.php:239
+msgid "You Must <a href=\"%s\">Login</a>"
+msgstr "شما باید <a href=\"%s\">وارد سیستم</a> شوید"
+
+#: inc/class-wpems-user-process.php:56
+msgid "You have been sign out!"
+msgstr "شما از سیستم خارج شده اید"
+
+#: inc/class-wpems-ajax.php:139
+msgid "You are registered this event."
+msgstr "شما این رویداد را ثبت کرده اید"
+
+#: inc/class-wpems-ajax.php:85
+msgid "You have registered this event before"
+msgstr "شما این رویداد را قبلاً ثبت کرده اید"
+
+#: inc/class-wpems-user-process.php:206
+msgid "You have logged in"
+msgstr "شما وارد سیستم شده اید"
+
+#: templates/shortcodes/user-account.php:22
+msgid "You are not <a href=\"%s\">login</a>"
+msgstr "شما <a href=\"%s\"> وارد شوید </a>"
+
+#: inc/wpems-core-functions.php:418
+msgid "Hours"
+msgstr "ساعت ها"
+
+#: inc/wpems-core-functions.php:427
+msgid "Hour"
+msgstr "ساعت"
+
+#: templates/shortcodes/forgot-password.php:54
+msgid "Create new user"
+msgstr "ساخت کاربر تازه"
+
+#: inc/wpems-core-functions.php:414
+msgid "Years"
+msgstr "سال‌ها"
+
+#: inc/wpems-core-functions.php:423
+msgid "Year"
+msgstr "سال"
+
+#: inc/admin/views/metaboxes/booking-details.php:38
+msgid "Order %s"
+msgstr "سفارش  %s"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:60
+msgid "Many"
+msgstr "زیاد"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:55
+msgid "Booking times free event/email"
+msgstr "زمان رزرو رویداد رایگان / ایمیل "
+
+#: inc/class-wpems-post-types.php:576
+msgid "Custom field updated."
+msgstr "زمینه‌ی دلخواه بروزرسانی شد."
+
+#: inc/class-wpems-post-types.php:577
+msgid "Custom field deleted."
+msgstr "زمینه‌ی دل‌خواه پاک شد."
+
+#: inc/class-wpems-post-types.php:123
+msgid "No books found."
+msgstr "رزروی  پیدا نشد."
+
+#: inc/class-wpems-post-types.php:122
+msgid "Parent Books:"
+msgstr "رزروهای مادر:"
+
+#: inc/class-wpems-post-types.php:121
+msgid "Search Books"
+msgstr "رزروها را جستجو کنید"
+
+#: inc/admin/class-wpems-admin-users.php:138 inc/class-wpems-gdpr.php:112
+msgid "Event Booking"
+msgstr "رزرو رویداد"
+
+#: inc/class-wpems-post-types.php:114
+msgctxt "add new on admin bar"
+msgid "Booking"
+msgstr "رزرو کنید"
+
+#: inc/class-wpems-post-types.php:112
+msgctxt "post type singular name"
+msgid "Booking"
+msgstr "رزرو کنید"
+
+#: inc/class-wpems-post-types.php:124
+msgid "No books found in Trash."
+msgstr "رزرو ی در زباله‌دان یافت نشد."
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:79
+msgid "Booking is cancel."
+msgstr "رزرو لغو است"
+
+#: inc/class-wpems-post-types.php:325
+msgid "Booked / Total"
+msgstr "رزرو / کل"
+
+#: inc/class-wpems-post-types.php:120
+msgid "Bookings"
+msgstr "رزرو"
+
+#: inc/class-wpems-post-types.php:111
+msgctxt "post type general name"
+msgid "Bookings"
+msgstr "رزرو"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:76
+msgid "Right"
+msgstr "راست"
+
+#: inc/class-wpems-post-types.php:378 inc/class-wpems-post-types.php:439
+#: inc/emails/class-wpems-register-event.php:81
+#: templates/emails/register-admin-event.php:62 templates/loop/register.php:54
+#: templates/shortcodes/user-account.php:46
+msgid "Free"
+msgstr "رایگان"
+
+#: inc/admin/views/metaboxes/booking-details.php:68
+msgid "Sub Total"
+msgstr "ریز حساب"
+
+#: inc/class-wpems-ajax.php:211
+msgid "Payment method is not available"
+msgstr "روش پرداخت در دسترس نیست"
+
+#: inc/admin/views/metaboxes/booking-details.php:52
+#: inc/class-wpems-gdpr.php:101 templates/emails/register-admin-event.php:53
+#: templates/emails/register-event-body.php:28
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+#: templates/shortcodes/user-account.php:36
+msgid "Method"
+msgstr "روش"
+
+#: inc/wpems-core-functions.php:417
+msgid "Days"
+msgstr "روزها"
+
+#: inc/wpems-core-functions.php:426
+msgid "Day"
+msgstr "روز"
+
+#: inc/class-wpems-post-types.php:74
+msgid "Parent Events:"
+msgstr "رویدادهای والد:"
+
+#: inc/widgets/class-wpems-widget-countdown.php:100
+msgid "Events:"
+msgstr "رویدادها"
+
+#: inc/class-wpems-post-types.php:88
+msgctxt "URL slug"
+msgid "events"
+msgstr "رویدادها"
+
+#: inc/class-wpems-post-types.php:65
+msgctxt "admin menu"
+msgid "Events"
+msgstr "رویدادها"
+
+#: inc/class-wpems-post-types.php:63
+msgctxt "post type general name"
+msgid "Events"
+msgstr "رویدادها"
+
+#: inc/class-wpems-post-types.php:582
+msgid "Event saved."
+msgstr "رویداد ذخیره شد"
+
+#: inc/class-wpems-post-types.php:68
+msgid "Add New Event"
+msgstr "رویداد جدید را اضافه کنید"
+
+#: inc/class-wpems-post-types.php:69
+msgid "New Event"
+msgstr "رویداد جدید"
+
+#: inc/class-wpems-post-types.php:575 inc/class-wpems-post-types.php:578
+#: inc/class-wpems-post-types.php:581
+msgid "Event updated."
+msgstr "رویداد به روز شد"
+
+#: inc/class-wpems-post-types.php:583
+msgid "Event submitted."
+msgstr "رویداد ارسال شد"
+
+#: inc/class-wpems-ajax.php:87
+msgid "The event is full, the registration is closed"
+msgstr "رویداد کامل است ، ثبت نام بسته است"
+
+#: inc/class-wpems-ajax.php:72
+msgid "Event not found."
+msgstr "رویداد یافت نشد."
+
+#: inc/class-wpems-post-types.php:403
+#: templates/emails/register-admin-event.php:49
+#: templates/emails/register-event-body.php:24
+msgid "Event"
+msgstr "رویداد"
+
+#: inc/class-wpems-post-types.php:66
+msgctxt "add new on admin bar"
+msgid "Event"
+msgstr "رویداد"
+
+#: inc/class-wpems-post-types.php:64
+msgctxt "post type singular name"
+msgid "Event"
+msgstr "رویداد"
+
+#: inc/wpems-core-functions.php:1127
+msgid "Password is required field."
+msgstr "رمز عبور اشتباه است؟"
+
+#: inc/class-wpems-user-process.php:175
+msgid "Password is required."
+msgstr "رمز عبور الزامی است؟"
+
+#: templates/shortcodes/form-login.php:28
+#: templates/shortcodes/form-register.php:33
+#: templates/shortcodes/reset-password.php:24
+msgid "Password"
+msgstr "رمز عبور"
+
+#: inc/admin/class-wpems-admin-settings.php:104
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: inc/class-wpems-post-types.php:163
+msgid "Parent Category:"
+msgstr "دستهٔ مادر:"
+
+#: inc/class-wpems-post-types.php:162
+msgid "Parent Category"
+msgstr "دستهٔ مادر"
+
+#: inc/wpems-core-functions.php:1294
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: inc/class-wpems-post-types.php:158
+msgctxt "taxonomy general name"
+msgid "Event Categories"
+msgstr "دسته بندی رویدادها"
+
+#: inc/class-wpems-post-types.php:159
+msgctxt "taxonomy singular name"
+msgid "Event Category"
+msgstr "دسته بندی رویداد"
+
+#: inc/class-wpems-post-types.php:168
+msgid "Category"
+msgstr "دسته بندی"
+
+#: inc/class-wpems-ajax.php:118
+msgid "Invalid event request"
+msgstr "درخواست رویداد نامعتبر است"
+
+#: inc/class-wpems-ajax.php:109 inc/class-wpems-ajax.php:113
+msgid "Invalid request"
+msgstr "درخواست نادرست"
+
+#: templates/shortcodes/forgot-password.php:42
+msgid "Get New Password"
+msgstr "دریافت رمز تازه"
+
+#: inc/wpems-core-functions.php:1123
+msgid "An account is already registered with your email address. Please login."
+msgstr "در حال حاضر یک حساب کاربری با آدرس ایمیل شما ثبت شده است. لطفا وارد شوید."
+
+#: inc/wpems-core-functions.php:1061
+msgid "Processing"
+msgstr "در حال انجام"
+
+#: inc/class-wpems-post-types.php:285
+msgctxt "Booking status"
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: inc/class-wpems-post-types.php:275
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "در انتظار<span class=\"count\">(%s)</span>"
+
+#: inc/class-wpems-post-types.php:270
+msgctxt "Booking status"
+msgid "Pending"
+msgstr "در انتظار وضعیت رزرو"
+
+#: inc/wpems-core-functions.php:1060
+msgid "Pending"
+msgstr "در انتظار"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:77
+msgid "Left with space"
+msgstr "در چپ فضا"
+
+#: inc/wpems-core-functions.php:419
+msgid "Minutes"
+msgstr "دقیقه ها"
+
+#: inc/wpems-core-functions.php:428
+msgid "Minute"
+msgstr "دقیقه"
+
+#: inc/wpems-core-functions.php:1112 inc/wpems-core-functions.php:1121
+#: inc/wpems-core-functions.php:1123 inc/wpems-core-functions.php:1127
+#: inc/wpems-core-functions.php:1149
+msgid "ERROR: "
+msgstr "خطا:"
+
+#: inc/emails/class-wpems-register-event.php:33
+msgid "Error %s booking ID"
+msgstr "خطا در شناسه رزرو %s  "
+
+#: templates/shortcodes/forgot-password.php:26
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "خواهشمندیم نام کاربری یا رایانشانی‌تان را وارد کنید. از راه رایانامه پیوندی برای دوباره ساختن گذرواژه‌تان دریافت خواهید کرد."
+
+#: inc/class-wpems-user-process.php:167 inc/class-wpems-user-process.php:171
+#: inc/class-wpems-user-process.php:175 inc/class-wpems-user-process.php:184
+msgid "ERROR"
+msgstr "خـطـا:"
+
+#: inc/class-wpems-install.php:149
+msgctxt "Page title"
+msgid "User Account"
+msgstr "حساب کاربری"
+
+#: inc/class-wpems-install.php:148
+msgctxt "Page slug"
+msgid "user-account"
+msgstr "حساب کاربری"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:81
+msgid "My Account"
+msgstr "حساب من"
+
+#: inc/class-wpems-post-types.php:73
+msgid "Search Events"
+msgstr "جستجوی رویدادها"
+
+#: inc/class-wpems-post-types.php:160
+msgid "Search Categories"
+msgstr "جست‌وجوی دسته‌ها"
+
+#: inc/admin/views/metaboxes/booking-details.php:44
+#: inc/class-wpems-post-types.php:118
+msgid "Booking Details"
+msgstr "جزئیات رزرو"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:92
+msgid "Decimal Separator"
+msgstr "جدا کننده دهدهی"
+
+#: inc/widgets/class-wpems-widget-countdown.php:92
+msgid "Navigation:"
+msgstr "جهت یابی:"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:55
+msgid "Event registration"
+msgstr "ثبت رویداد"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:78
+#: inc/emails/class-wpems-register-event.php:50
+msgid "Register event"
+msgstr "ثبت رویداد"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:54
+msgid "Event register"
+msgstr "ثبت رویداد"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:108
+msgid "Account register"
+msgstr "ثبت حساب"
+
+#: inc/wpems-core-functions.php:1149
+msgid "Couldn't register."
+msgstr "ثبت نام نشد."
+
+#: inc/wpems-core-functions.php:429
+msgid "Second"
+msgstr "ثانیه"
+
+#: inc/wpems-core-functions.php:420
+msgid "Seconds"
+msgstr "ثانیه"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:99
+msgid "Number of Decimals"
+msgstr "تعداد اعشار"
+
+#: inc/admin/views/metaboxes/booking-details.php:51
+#: inc/admin/views/metaboxes/event-settings.php:38
+#: inc/class-wpems-post-types.php:407
+#: templates/emails/register-admin-event.php:51
+#: templates/emails/register-event-body.php:26
+#: templates/loop/booking-form.php:32 templates/shortcodes/user-account.php:35
+msgid "Quantity"
+msgstr "تعداد"
+
+#: inc/admin/views/metaboxes/booking-details.php:40
+msgid "Date %s"
+msgstr "تاریخ %s"
+
+#: inc/class-wpems-post-types.php:405
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/shortcodes/form-register.php:38
+#: templates/shortcodes/reset-password.php:36
+msgid "Confirm Password"
+msgstr "تایید گذرواژه"
+
+#: inc/widgets/class-wpems-widget-countdown.php:27
+msgid "Countdown timer for event"
+msgstr "تایمر شمارش معکوس برای رویداد"
+
+#: inc/wpems-core-functions.php:1105
+msgid "Confirm Password is not match."
+msgstr "تأیید رمز عبور مطابقت ندارد."
+
+#: templates/shortcodes/form-register.php:47
+msgid "Registration confirmation will be emailed to you."
+msgstr "تأیید نام‌نویسی به شما ایمیل خواهد شد."
+
+#: inc/wpems-core-functions.php:1062
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: inc/class-wpems-post-types.php:300
+msgctxt "Booking status"
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: inc/class-wpems-post-types.php:129
+msgid "Description."
+msgstr "توضیح"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:53
+msgid "Pages Settings"
+msgstr "تنظیمات صفحه"
+
+#: inc/admin/class-wpems-admin-settings.php:69
+msgid "Your settings have been saved."
+msgstr "تنظیمات شما ذخیره شده است."
+
+#: inc/admin/class-wpems-admin-metaboxes.php:35
+msgid "Event Settings"
+msgstr "تنظیمات رویداد"
+
+#: inc/admin/class-wpems-admin-menu.php:48
+msgid "WP Event Settings"
+msgstr "تنظیمات افزونه رویداد"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:153
+msgid "Paypal Settings"
+msgstr "تنظیمات پی پال"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:51
+msgid "General options for system"
+msgstr "تنظیمات کلی سیستم"
+
+#: inc/admin/class-wpems-admin-menu.php:48
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/class-wpems-install.php:143
+msgctxt "Page slug"
+msgid "reset-password"
+msgstr "تنظیم مجدد کلمه عبور"
+
+#: templates/shortcodes/user-account.php:67
+#: templates/shortcodes/user-account.php:80
+msgid "Next »"
+msgstr "بعدی:"
+
+#: inc/class-wpems-shortcodes.php:183 inc/class-wpems-shortcodes.php:221
+msgid "Check your email for a link to reset your password."
+msgstr "برای تنظیم مجدد رمز عبور ، ایمیل خود را بررسی کنید."
+
+#: inc/admin/views/metaboxes/event-settings.php:113
+msgid "You need set up Google Map API Key to show map."
+msgstr "برای نشان دادن نقشه باید Google API Key را تنظیم کنید."
+
+#: inc/admin/views/metaboxes/booking-details.php:62
+#: inc/class-wpems-gdpr.php:102 inc/emails/class-wpems-register-event.php:85
+#: templates/emails/register-admin-event.php:65
+#: templates/shortcodes/user-account.php:49
+msgid "No payment"
+msgstr "بدون پرداخت"
+
+#: inc/class-wpems-install.php:144
+msgctxt "Page title"
+msgid "Reset Password"
+msgstr "بازنشانی رمز"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:75
+#: templates/shortcodes/reset-password.php:60
+msgid "Reset Password"
+msgstr "بازنشانی گذرواژه"
+
+#: inc/class-wpems-post-types.php:165
+msgid "Update Category"
+msgstr "به‌روزرسانی دسته"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:56
+msgid "Allows user register events"
+msgstr "به کاربر اجازه می دهد وقایع را ثبت کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:109
+msgid "Refer on https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key"
+msgstr "به https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key مراجعه کنید"
+
+#: inc/admin/views/metaboxes/event-settings.php:61
+msgid "to"
+msgstr "به"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:50
+msgid "Email Notifications"
+msgstr "اعلانات ایمیل"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:109
+msgid "Send notify when user register account"
+msgstr "اعلان را هنگام ثبت نام کاربر ارسال کنید"
+
+#: inc/class-wpems-ajax.php:54
+msgid "Remove admin notice successful"
+msgstr "اعلامیه سرپرست را با موفقیت حذف کنید"
+
+#: inc/admin/class-wpems-admin-metaboxes.php:43
+msgid "Booking Information"
+msgstr "اطلاعات رزرو"
+
+#: inc/wpems-core-functions.php:433
+msgid "Something went wrong"
+msgstr "اشتباهی رخ داده است!"
+
+#: inc/class-wpems-post-types.php:380
+msgid "slot"
+msgstr "اسلات"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:78
+msgid "Right with space"
+msgstr "از راست مفدار"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:61
+msgid "From name"
+msgstr "از نام"
+
+#: inc/admin/views/metaboxes/event-settings.php:114
+msgid "Set up here"
+msgstr "اینجا تنظیم کنید"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:58
+msgid "This controls which the register page"
+msgstr "این صفحه ثبت نام را کنترل می کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:76
+msgid "This controls which the reset password page"
+msgstr "این صفحه که تنظیم مجدد رمزعبور است را کنترل می کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:64
+msgid "This controls which the login page"
+msgstr "این صفحه کنترل را کنترل می کند"
+
+#: templates/loop/countdown.php:27
+msgid "This event has expired"
+msgstr "این رویداد منقضی شده است."
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:56
+msgid "This controls how many time booking free event of an email"
+msgstr "این کنترل چند بار رزرو رویداد رایگان ایمیل را کنترل می کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:70
+msgid "This controls which the forgot password page"
+msgstr "این کنترل می کند که صفحه رمز عبور را فراموش کرده اید"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:63
+msgid "This controls what the currency prices"
+msgstr "این کنترل قیمت ارز را کنترل می کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:72
+msgid "This controls the position of the currency symbol"
+msgstr "این موقعیت نماد ارز را کنترل می کند"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:82
+msgid "This controls which the user account page"
+msgstr "این  صفحه حساب کاربر را کنترل می کند "
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:69
+msgid "Email from"
+msgstr "ایمیل از"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:31
+msgid "Emails"
+msgstr "ایمیل ها"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:179
+msgid "Paypal Sandbox email"
+msgstr "ایمیل sandbox پی پال"
+
+#: inc/admin/class-wpems-admin-users.php:137
+#: templates/shortcodes/form-register.php:28
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/shortcodes/register-error.php:19
+msgid "Oops! Something went wrong."
+msgstr "اوه... خطایی رخ داد"
+
+#: inc/class-wpems-post-types.php:113
+msgctxt "admin menu"
+msgid "Bookings"
+msgstr "انجام رزروها"
+
+#: inc/admin/class-wpems-admin-metaboxes.php:51
+msgid "Booking Actions"
+msgstr "اقدامات رزرو"
+
+#: inc/class-wpems-post-types.php:166
+msgid "Add New Category"
+msgstr "افزودن دسته جدید"
+
+#: inc/class-wpems-post-types.php:115
+msgctxt "book"
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: inc/class-wpems-post-types.php:67
+msgctxt "event"
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: inc/class-wpems-post-types.php:117
+msgid "New Booking"
+msgstr "افزودن یک رزرو جید "
+
+#: inc/class-wpems-post-types.php:116
+msgid "Add New Booking"
+msgstr "افزودن یک رزرو جید "
+
+#. Description of the plugin
+#: wp-events-manager.php
+msgid "A complete plugin for Events management and online booking system"
+msgstr "افزونه کاملی برای مدیریت رویدادها و سیستم رزرو آنلاین"
+
+#: inc/admin/views/metaboxes/event-settings.php:54
+msgid "Start/End"
+msgstr "آغاز/پایان"
+
+#: inc/class-wpems-post-types.php:321
+msgid "Start"
+msgstr "آغاز"
+
+#: inc/class-wpems-ajax.php:167
+msgid "is not ready. Please contact administrator to setup payment gateways"
+msgstr "آماده نیست لطفاً برای راه اندازی دروازه های پرداخت با مدیر تماس بگیرید"
+
+#: inc/class-wpems-post-types.php:290
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] "پردازش <span class=\"count\">(%s)</span>"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:154
+msgid "Make payment via Paypal"
+msgstr "پرداخت را از طریق پی پال انجام دهید"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:77
+msgid "Payment is completed. We will send you email when payment status is completed"
+msgstr "پرداخت تمام شد با تکمیل وضعیت پرداخت ، برای شما ایمیل ارسال خواهیم کرد"
+
+#: inc/abstracts/class-wpems-abstract-payment-gateway.php:113
+msgid "Payment completed. We will send you email when payment method verify."
+msgstr "پرداخت کامل شد. هنگام تأیید روش پرداخت ، برای شما ایمیل ارسال خواهیم کرد"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:88
+msgid "Checkout General"
+msgstr "پرداخت کلی"
+
+#: inc/class-wpems-post-types.php:322
+msgid "End"
+msgstr "پایان"
+
+#: inc/class-wpems-post-types.php:589
+msgid "Event draft updated."
+msgstr "پیش نویس رویداد به روز شد."
+
+#: inc/class-wpems-post-types.php:601
+msgid "Preview event"
+msgstr "پیش نمایش رویداد"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:34
+msgid "PayPal"
+msgstr "پی‌پال"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:51
+msgid "General Options"
+msgstr "گزینه های عمومی"
+
+#: templates/shortcodes/form-register.php:61
+msgid "Forgot password?"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
+
+#: inc/class-wpems-install.php:139
+msgctxt "Page title"
+msgid "Forgot Password"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
+
+#: inc/class-wpems-install.php:138
+msgctxt "Page slug"
+msgid "forgot-password"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
+
+#: inc/admin/settings/class-wpems-admin-setting-pages.php:69
+#: templates/shortcodes/form-login.php:53
+msgid "Forgot Password"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
+
+#: templates/shortcodes/form-register.php:61
+msgid "Password Lost and Found"
+msgstr "گم شدن و پیدا کردن گذرواژه"
+
+#: inc/widgets/class-wpems-widget-countdown.php:88
+msgid "Carousel Slide:"
+msgstr "کراسل اسلایدر:"
+
+#: inc/admin/views/metaboxes/event-settings.php:131
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: inc/class-wpems-post-types.php:136
+msgctxt "URL slug"
+msgid "event-book"
+msgstr "کتاب رویداد"
+
+#. translators: %s: date and time of the revision
+#: inc/class-wpems-post-types.php:580
+msgid "Book restored to revision from %s"
+msgstr "کتاب برای تجدید نظر از%s بازگردانده شد"
+
+#: inc/admin/class-wpems-admin-menu.php:47
+msgid "WP Event Users"
+msgstr "کاربران افزونه رویداد "
+
+#: inc/admin/class-wpems-admin-users.php:28
+msgid "users"
+msgstr "کاربران"
+
+#: inc/admin/class-wpems-admin-menu.php:47
+msgid "Users"
+msgstr "کاربران"
+
+#: inc/admin/class-wpems-admin-users.php:103
+msgid "No users found."
+msgstr "کاربری پیدا نشد."
+
+#: inc/class-wpems-user-process.php:184
+msgid "A user could not be found with this email address."
+msgstr "کاربر با این آدرس ایمیل یافت نشد."
+
+#: inc/emails/class-wpems-register-event.php:45
+msgid "User is not exists!"
+msgstr "کاربر وجود ندارد."
+
+#: inc/class-wpems-post-types.php:404
+msgid "User"
+msgstr "کاربر"
+
+#: inc/admin/class-wpems-admin-users.php:27
+msgid "user"
+msgstr "کاربر"
+
+#: inc/class-wpems-post-types.php:305
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "کامل شده <span class=\"count\">(%s)</span>"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:107
+msgid "Google Map API Key"
+msgstr "کلید API نقشه گوگل"
+
+#: inc/admin/views/metaboxes/booking-actions.php:30
+msgid "Booking Notes"
+msgstr "یادداشت های رزرو"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:59
+msgid "Once"
+msgstr "یک بار"
+
+#: inc/admin/views/metaboxes/booking-actions.php:21
+msgid "Booking Status"
+msgstr "وضعیت رزروها"
+
+#: inc/admin/views/metaboxes/booking-actions.php:27
+msgid "Update booking event status"
+msgstr "وضعیت رویداد رزرو را به روز کنید"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:66
+msgid "Cancel payment status"
+msgstr "وضعیت پرداخت را لغو کنید"
+
+#: inc/class-wpems-gdpr.php:105 inc/class-wpems-post-types.php:323
+#: inc/class-wpems-post-types.php:408
+#: templates/emails/register-admin-event.php:54
+#: templates/emails/register-event-body.php:29
+#: templates/shortcodes/user-account.php:37
+msgid "Status"
+msgstr "وضعیت"
+
+#: inc/class-wpems-install.php:134
+msgctxt "Page title"
+msgid "User Login"
+msgstr "ورود کاربر"
+
+#: inc/class-wpems-install.php:133
+msgctxt "Page slug"
+msgid "user-login"
+msgstr "ورود کاربر"
+
+#: templates/shortcodes/form-register.php:60
+#: templates/shortcodes/reset-password.php:66
+msgid "Log in"
+msgstr "ورود"
+
+#: templates/shortcodes/forgot-password.php:49
+#: templates/shortcodes/form-login.php:44
+msgid "Login"
+msgstr "ورود"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:31
+msgid "Checkout"
+msgstr "وارسی"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:62
+msgid "Currency"
+msgstr "واحد پول"
+
+#: inc/class-wpems-post-types.php:70
+msgid "Edit Event"
+msgstr "ویرایش رویداد"
+
+#: inc/class-wpems-post-types.php:164
+msgid "Edit Category"
+msgstr "ویرایش دسته"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:85
+msgid "Thousand Separator"
+msgstr "هزار جداکننده"
+
+#: templates/loop/register.php:53
+msgid "Cost:"
+msgstr "هزینه"
+
+#: inc/admin/views/metaboxes/booking-details.php:50
+#: inc/class-wpems-post-types.php:406
+#: inc/emails/class-wpems-register-event.php:81
+#: templates/emails/register-admin-event.php:52
+#: templates/emails/register-admin-event.php:62
+#: templates/emails/register-event-body.php:27
+#: templates/shortcodes/user-account.php:34
+#: templates/shortcodes/user-account.php:46
+msgid "Cost"
+msgstr "هزینه"
+
+#: inc/class-wpems-post-types.php:76
+msgid "No events found in Trash."
+msgstr "هیچ رویدادی در حذف شده ها یافت نشد."
+
+#: inc/class-wpems-post-types.php:75
+msgid "No events found."
+msgstr "هیچ رویدادی یافت نشد"
+
+#: templates/loop/booking-form.php:55
+msgid "There are no payment gateway available. Please contact administrator to setup it."
+msgstr "هیچ دروازه پرداخت در دسترس نیست. لطفاً برای تنظیم آن با سرپرست تماس بگیرید."
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:31
+msgid "General"
+msgstr "همگانی"
+
+#: inc/class-wpems-post-types.php:161
+msgid "All Categories"
+msgstr "همهٔ دسته‌ها"
+
+#: templates/loop/booking-form.php:65 templates/loop/register.php:67
+msgid "Register Now"
+msgstr "هم‌اکنون نام‌نویسی کنید"
+
+#: inc/wpems-core-functions.php:416
+msgid "Weeks"
+msgstr "هفته‌‌ها"
+
+#: inc/wpems-core-functions.php:425
+msgid "Week"
+msgstr "هفته"
+
+#: inc/class-wpems-post-types.php:384
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: templates/shortcodes/user-cannot-register.php:18
+msgid "User registration is currently not allowed."
+msgstr "نام‌نویسی کاربر تازه در حال حاضر مجاز نیست."
+
+#: templates/shortcodes/form-login.php:51
+#: templates/shortcodes/form-register.php:54
+#: templates/shortcodes/reset-password.php:70
+msgid "Register"
+msgstr "نام‌نویسی"
+
+#: inc/class-wpems-post-types.php:167
+msgid "New Category Name"
+msgstr "نام دسته جدید"
+
+#: inc/wpems-core-functions.php:1114
+msgid "Username is already exists."
+msgstr "نام کاربری تکراری است"
+
+#: templates/shortcodes/forgot-password.php:29
+msgid "Username or Email:"
+msgstr "نام کاربری یا ایمیل"
+
+#: inc/wpems-core-functions.php:1112
+msgid "Username is required field."
+msgstr "نام کاربری لازم است."
+
+#: inc/class-wpems-user-process.php:171
+msgid "Username is required."
+msgstr "نام کاربری لازم است."
+
+#: inc/admin/class-wpems-admin-users.php:135
+#: templates/shortcodes/form-login.php:23
+#: templates/shortcodes/form-register.php:23
+msgid "Username"
+msgstr "نام کاربری"
+
+#: inc/admin/class-wpems-admin-users.php:136
+#: templates/emails/register-admin-event.php:48
+msgid "Name"
+msgstr "نام"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:75
+msgid "Left"
+msgstr "چپ"
+
+#: inc/class-wpems-post-types.php:81
+msgid "Event post type."
+msgstr "نوع ارسال رویداد"
+
+#: templates/emails/register-admin-event.php:50
+#: templates/emails/register-event-body.php:25
+#: templates/shortcodes/user-account.php:33
+msgid "Type"
+msgstr "نوع"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:67
+msgid "How long cancel a payment (hour)"
+msgstr "چه مدت پرداخت (ساعت) را لغو کنید"
+
+#: templates/loop/excerpt.php:21
+msgid "View Detail"
+msgstr "نمایش جزییات"
+
+#: inc/class-wpems-post-types.php:119
+msgid "View Booking"
+msgstr "مشاهده رزرو"
+
+#: inc/class-wpems-post-types.php:595
+msgid "View event"
+msgstr "مشاهده رویداد"
+
+#: inc/class-wpems-post-types.php:71
+msgid "View Event"
+msgstr "مشاهده رویداد"
+
+#: inc/admin/class-wpems-admin-users.php:92
+msgid "View"
+msgstr "مشاهده"
+
+#: templates/shortcodes/form-login.php:36
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#. Plugin Name of the plugin
+#: wp-events-manager.php
+msgid "WP Events Manager"
+msgstr "مدیریت رویدادها"
+
+#: inc/admin/class-wpems-admin-menu.php:41
+msgid "Events Manager"
+msgstr "مدیر رویدادها"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:172
+msgid "Sandbox mode"
+msgstr "مدل sandbox"
+
+#: inc/admin/views/metaboxes/booking-details.php:72 inc/class-wpems-gdpr.php:97
+msgid "Total"
+msgstr "مجموع"
+
+#: inc/wpems-core-functions.php:415
+msgid "Months"
+msgstr "ماه‌ها"
+
+#: inc/wpems-core-functions.php:424
+msgid "Month"
+msgstr "ماه"
+
+#: inc/admin/settings/class-wpems-admin-setting-emails.php:77
+msgid "Subject"
+msgstr "موضوع"
+
+#: inc/admin/views/metaboxes/booking-details.php:49
+msgid "Item"
+msgstr "مورد"
+
+#: inc/admin/settings/class-wpems-admin-setting-general.php:71
+msgid "Currency Position"
+msgstr "موقعیت ارز"
+
+#: inc/admin/views/metaboxes/event-settings.php:108
+msgid "Location"
+msgstr "موقعیت"
+
+#: inc/class-wpems-post-types.php:72 inc/wpems-core-functions.php:1289
+#: templates/shortcodes/user-account.php:32
+msgid "Events"
+msgstr "مناسبت ها"
+
+#: inc/class-wpems-ajax.php:83
+msgid "has been expired"
+msgstr "منقضی شده است"
+
+#: inc/class-wpems-ajax.php:125
+msgid "Quantity must integer"
+msgstr "مقدار باید عدد صحیح باشد"
+
+#: inc/admin/views/metaboxes/booking-details.php:53
+msgid "Amount"
+msgstr "مقدار"
+
+#: inc/wpems-core-functions.php:1059
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#: inc/class-wpems-post-types.php:255
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#: inc/class-wpems-post-types.php:260
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "لغو شد <span class=\"count\">(%s)</span>"
+
+#: inc/wpems-core-functions.php:1121
+msgid "Please provide a valid email address."
+msgstr "لطفا یک ایمیل معتبر وارد کنید"
+
+#: templates/shortcodes/user-account.php:66
+#: templates/shortcodes/user-account.php:79
+msgid "« Previous"
+msgstr "قبلی"
+
+#: inc/class-wpems-ajax.php:76
+msgid "You must login before register "
+msgstr "قبل از ثبت نام باید وارد شوید"
+
+#: inc/admin/views/metaboxes/event-settings.php:44
+#: inc/class-wpems-post-types.php:324
+msgid "Price"
+msgstr "قیمت"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:158
+#: inc/plugins/wp-events-manager-woo-payment/inc/class-wpems-wc-payment.php:77
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: inc/admin/settings/class-wpems-admin-setting-checkout.php:50
+msgid "Checkout Process"
+msgstr "فرآیند پرداخت"
+
+#. Author of the plugin
+#: wp-events-manager.php
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:277
+msgid "Email Business PayPal is invalid. Please contact administrator to setup PayPal email."
+msgstr "PayPal تجارت الکترونیکی نامعتبر است. لطفاً برای تنظیم ایمیل PayPal با سرپرست تماس بگیرید."
+
+#. translators: Publish box date format, see http://php.net/date
+#: inc/class-wpems-post-types.php:587
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#. Plugin URI of the plugin
+#: wp-events-manager.php
+msgid "http://thimpress.com/"
+msgstr "http://thimpress.com/"
+
+#. Author URI of the plugin
+#: wp-events-manager.php
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#: inc/wpems-core-functions.php:1037 inc/wpems-core-functions.php:1061
+msgid "<span class=\"event_booking_status processing\">%s</span>"
+msgstr "<span class=\"event_booking_status processing\">%s</span>"
+
+#: inc/wpems-core-functions.php:1033 inc/wpems-core-functions.php:1060
+msgid "<span class=\"event_booking_status pending\">%s</span>"
+msgstr "<span class=\"event_booking_status pending\">%s</span>"
+
+#: inc/wpems-core-functions.php:1041 inc/wpems-core-functions.php:1062
+msgid "<span class=\"event_booking_status completed\">%s</span>"
+msgstr "<span class=\"event_booking_status completed\">%s</span>"
+
+#: inc/wpems-core-functions.php:1029 inc/wpems-core-functions.php:1059
+msgid "<span class=\"event_booking_status cancelled\">%s</span>"
+msgstr "<span class=\"event_booking_status cancelled\">%s</span>"
+
+#: inc/class-wpems-post-types.php:401
+msgid "<label class=\"screen-reader-text __web-inspector-hide-shortcut__\" for=\"cb-select-all-1\">Select All</label><input id=\"cb-select-all-1\" type=\"checkbox\">"
+msgstr "<label class=\"screen-reader-text __web-inspector-hide-shortcut__\" for=\"cb-select-all-1\"> همه را انتخاب کنید </label><input id=\"cb-select-all-1\" type=\"checkbox\">"
+
+#: inc/admin/views/metaboxes/event-settings.php:48
+msgid "Set 0 to make it becomes free event"
+msgstr "0 را تنظیم کنید تا یک رویداد رایگان شود"
+
+#: inc/class-wpems-install.php:129
+msgctxt "Page title"
+msgid "User Register"
+msgstr " ثبت نام کاربر"
+
+#: inc/class-wpems-install.php:128
+msgctxt "Page slug"
+msgid "user-register"
+msgstr " ثبت نام کاربر"
+
+#: inc/gateways/paypal/class-wpems-payment-gateway-paypal.php:165
+msgid "Paypal email"
+msgstr " ایمیل پی پال"
+
+#: inc/class-wpems-post-types.php:585
+msgid "Event scheduled for: <strong>%1$s</strong>."
+msgstr "\tبرنامه ریزی شده برای: <strong>%1$s</strong>."
