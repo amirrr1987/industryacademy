@@ -1,0 +1,6 @@
+# Ignore MySQL data files
+db_data/
+*.sock
+*.ibd
+*.log
+*.index
