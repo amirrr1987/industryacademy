@@ -1,16 +1,14 @@
-version: "3.8"
-
 services:
   wordpress:
     build: .
-    container_name: wordpress
+    container_name: industry_wordpress
     ports:
       - "8080:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_NAME: wordpress
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: industry_db
+      WORDPRESS_DB_USER: industry_admin
+      WORDPRESS_DB_PASSWORD: industry_password
     volumes:
       - ./html:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
@@ -21,14 +19,14 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: wordpress_db
+    container_name: industry_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: industry_db
+      MYSQL_USER: industry_admin
+      MYSQL_PASSWORD: industry_password
     volumes:
-      - ./db_data:/var/lib/mysql
+      - db_data:/var/lib/mysql
     networks:
       - wordpress_network
 
