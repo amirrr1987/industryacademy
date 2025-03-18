@@ -1,0 +1,27 @@
+/*by suncode*/
+@font-face {
+    font-family: 'iransansxv';
+    src: url('../fonts/iransansx/IRANSansXV.woff') format('woff-variations'),
+    /* will be the standard and works in Safari now */
+    url('../fonts/iransansx/IRANSansXV.woff') format('woff');
+    /* for the other supporting browsers */
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: iransansx;
+    src: url('../fonts/iransansx/IRANSansX-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: iransansx;
+    src: url('../fonts/iransansx/IRANSansX-Bold.woff') format('woff');
+    font-weight: 700;
+}
+body.rtl, body.rtl .press-this a.wp-switch-editor {
+    font-family: 'iransansxv', iransansx, tahoma;
+}
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6,
+.rtl.login h1.admin-email__heading{
+    font-family: 'iransansxv', iransansx, tahoma;
+    font-weight: 700;
+}
